@@ -5,9 +5,26 @@ import Image from "next/image";
 const streamablePhoto = "streamable-photo.png";
 const pomofocusPhoto = "pomofocus-photo.png";
 const flashChatPhoto = "flash-chat-photo.png";
-
+const dopekicks = "dopekicks-img.png";
+const portfolio = 'portfolio-website-img.png'
 function Projects() {
   const projects = [
+    {
+      name: "Portfolio Website",
+      description:
+        "My personal portfolio website which you are currently on.",
+      image: portfolio,
+      link: "https://vedpahune.vercel.app",
+      github_link: "https://github.com/vednp/portfolio-site-main",
+    },
+    {
+      name: "Dope Kicks",
+      description:
+        "DopeKicks is a Next.js 14-powered online shoe store with a modern UI and secure Stripe payment integration for a seamless shopping experience.",
+      image: dopekicks,
+      link: "https://dopekicks-ochre.vercel.app",
+      github_link: "https://github.com/vednp/dopekicks"
+    },
     {
       name: "Streamable",
       description:
