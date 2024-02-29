@@ -126,6 +126,7 @@ function Skills() {
             <div className="flex flex-wrap gap-4">
               {skills[category as keyof typeof skills].map((skill, skillIndex) => (
                 <motion.div
+                  key={skillIndex}
                   initial={{ opacity: 0, scale: 0.5 }}
                   whileInView={{ opacity: 1, scale: 1 }}
                   transition={{ duration: 0.7 }}

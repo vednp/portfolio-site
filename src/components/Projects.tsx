@@ -42,8 +42,9 @@ function Projects() {
       </h2>
       <br />
       <ul className="flex flex-wrap justify-evenly">
-        {projects.map((project) => (
+        {projects.map((project, index) => (
           <motion.div
+            key={index}
             initial={{ opacity: 0, scale: 0.5 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.7 }}

@@ -19,7 +19,7 @@ function About() {
             <p className="text-gray-500">
               I am a Computer Science undergraduate with a passion for
               technology and software development. My journey in the world of
-              programming began when I wrote my first "Hello, World!" program,
+              programming began when I wrote my first Hello World program,
               and I have been captivated by the endless possibilities of coding
               ever since.
             </p>
