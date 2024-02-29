@@ -2,7 +2,6 @@ import { Github, MoveRight } from "lucide-react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-// 이미지 경로를 직접 지정해줍니다.
 const streamablePhoto = "streamable-photo.png";
 const pomofocusPhoto = "pomofocus-photo.png";
 const flashChatPhoto = "flash-chat-photo.png";
@@ -58,7 +57,7 @@ function Projects() {
   );
 }
 
-function ProjectCard({ project }) {
+function ProjectCard({ project }: { project: any }) {
   return (
     <li key={project.name} className="mb-8">
       <div
