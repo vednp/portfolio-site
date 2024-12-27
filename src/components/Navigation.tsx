@@ -19,11 +19,7 @@ function Navigation() {
           Projects
         </ScrollLink>
       </li>
-      <li>
-        <ScrollLink to="academics" smooth={true} spy={true} className="transition-all duration-500 ease-in-out bg-clip-text" activeClass="bg-gradient-to-r from-[#1E3A8A] to-[#2563EB] text-transparent">
-          Academic Work
-        </ScrollLink>
-      </li>
+      
     </ul>
   );
 }
