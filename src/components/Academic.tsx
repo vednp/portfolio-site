@@ -2,7 +2,7 @@ import React from 'react'
 
 function Academic() {
   return (
-    <div className="h-[80vh]" >Academic</div>
+    <div className="h-[80vh]" ></div>
   )
 }
 
